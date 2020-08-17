@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body{
+width: 100%;
+height: 100%;
+}
+.titlee{
+  font-family:'Lemonada', cursive;
+  font-size: 60px;
+  color: white;
+}
+.Nombres{
+  font-family:'Lemonada', cursive;
+  font-size: 25px;
+  padding-top: 20px;
+}
+.Cel{
+  font-family:'Lemonada', cursive;
+  padding-top: 25px;
+  font-size: 20px;
+}
+.CajaReferencias{
+height: 80%;
+width: 80%;
+background-color: white;
+margin-left:11%;
+margin-top: 15px;
+border-radius: 15px;
+background-color: #9FBBCC;
+}
+.CajaGrande{
+  width: 100%;
+  height: 520px;
+  margin-top: 40px;
+
+}
+.Referencia1{
+  width: 100%;
+  height: 33%;
+  display: flex;
+}
+.Referencia11{
+  width: 35%;
+  height: 100%;
+}
+.Cajafoto1{
+  height: 90%;
+  width: 50%;
+  margin-left:40%;
+  margin-top: 18px;
+}
+.imagen1{
+width: 100%;
+height: 100%;
+border-radius: 15px;
+}
+.Referencia12{
+  width: 65%;
+  height: 100%;
+}
+
+.Referencia2{
+  width: 100%;
+  height: 33%;
+  display: flex;
+}
+.Referencia21{
+  width: 35%;
+  height: 100%;
+}
+.Cajafoto2{
+  height: 90%;
+  width: 50%;
+  margin-left:40%;
+  margin-top: 18px;
+}
+.imagen2{
+width: 100%;
+height: 100%;
+border-radius: 15px;
+}
+.Referencia22{
+  width: 65%;
+  height: 100%;
+}
+
+.Referencia3{
+  width: 100%;
+  height: 33%;
+  display: flex;
+}
+.Referencia31{
+  width: 35%;
+  height: 100%;
+}
+.Cajafoto3{
+  height: 90%;
+  width: 50%;
+  margin-left:40%;
+  margin-top: 18px;
+}
+.imagen3{
+width: 100%;
+height: 100%;
+border-radius: 15px;
+}
+.Referencia32{
+  width: 65%;
+  height: 100%;
+}
+
+@media screen and (max-width:800px ) {
+
+  body{
+  width: 100%;
+  height: 100%;
+  }
+  .titlee{
+    font-family:'Lemonada', cursive;
+    font-size: 100%;
+  }
+  .Nombres{
+    font-family:'Lemonada', cursive;
+    font-size: 80%;
+    padding-top: 20%;
+  }
+  .Cel{
+    font-family:'Lemonada', cursive;
+    padding-top: 25px;
+    font-size: 80%;
+  }
+  .CajaReferencias{
+  height: 75%;
+  width: 75%;
+  background-color: white;
+  margin-left:11%;
+  margin-top: 18px;
+  background-color: #9FBBCC;
+  border-radius: 15px;
+  }
+  .CajaGrande{
+    width: 100%;
+    height: 520px;
+    margin-top: 40px;
+  }
+  .Referencia1{
+    width: 100%;
+    height: 33%;
+    display: flex;
+  }
+  .Referencia11{
+    width: 35%;
+    height: 100%;
+  }
+  .Cajafoto1{
+    height: 70%;
+    width: 75%;
+    margin-left:25%;
+    margin-top: 18px;
+  }
+  .imagen1{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  }
+  .Referencia12{
+    width: 65%;
+    height: 100%;
+  }
+
+  .Referencia2{
+    width: 100%;
+    height: 33%;
+    display: flex;
+  }
+  .Referencia21{
+    width: 35%;
+    height: 100%;
+  }
+  .Cajafoto2{
+    height: 70%;
+    width: 75%;
+    margin-left:25%;
+    margin-top: 18px;
+  }
+  .imagen2{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  }
+  .Referencia22{
+    width: 65%;
+    height: 100%;
+  }
+
+  .Referencia3{
+    width: 100%;
+    height: 33%;
+    display: flex;
+  }
+  .Referencia31{
+    width: 35%;
+    height: 100%;
+  }
+  .Cajafoto3{
+    height: 70%;
+    width: 75%;
+    margin-left:25%;
+    margin-top: 18px;
+  }
+  .imagen3{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  }
+  .Referencia32{
+    width: 65%;
+    height: 100%;
+  }
+
+
+}

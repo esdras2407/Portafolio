@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+footer{
+  background:#A9B3CE;
+  height: 150px;
+  margin-top: 20px;
+}
+
+
+.TitulosFooter{
+  font-size: 30px;
+  color: white;
+  font-family: 'Bree Serif' ;
+}
+.textosFooter{
+  color: white;
+  font-family: 'Playfair Display', ;
+}
+.cajaFooter{
+  height: 100%;
+  width: 100%;
+    font-family: 'Playfair Display';
+    display: flex;
+}
+.CajaDatos{
+  height: 100%;
+  width: 90%;
+  display: flex;
+  margin-left: 4.7%;
+}
+.CajaTelefono{
+  height: 100%;
+  width: 33.3%;
+  display: flex;
+}
+.Telefono{
+  width: 35%;
+  height: 100%;
+}
+.cel{
+  width: 50%;
+  height: 50%;
+  margin-top: 25%;
+  margin-left: 25%;
+}
+.CajaInfoTelefono{
+  width: 50%;
+  height: 100%;
+}
+.CajaDireccion{
+  height: 100%;
+  width: 33.3%;
+  display: flex;
+}
+.Direccion{
+  width: 35%;
+  height: 100%;
+}
+.Ubicacion{
+  width: 50%;
+  height: 50%;
+  margin-top: 25%;
+  margin-left: 25%;
+}
+.CajaInfoUbicacion{
+  width: 50%;
+  height: 100%;
+}
+.CajaContacto{
+  height: 100%;
+  width: 33.3%;
+  display: flex;
+}
+.Contacto{
+  width: 35%;
+  height: 100%;
+}
+.Infor{
+  width: 50%;
+  height: 50%;
+  margin-top: 25%;
+  margin-left: 25%;
+}
+.CajaInfoContacto{
+  width: 50%;
+  height: 100%;
+  word-wrap: break-word;
+}
+.iconos{
+  height: 12%;
+  width: 12%;
+}
+
+@media only screen and (max-width:667px){
+  footer{
+    margin-top: 15px;
+    background:#A9B3CE;
+    height: 100px;
+    display:flex;
+    flex-direction: row;
+  }
+
+  .TitulosFooter{
+    font-size: 60%;
+    text-align: center;
+  }
+  .textosFooter{
+    font-size: 55%;
+  }
+  .cajaFooter{
+    height: 100%;
+    width: 100%;
+      font-family: 'Playfair Display';
+      display: flex;
+      flex-direction: row;
+  }
+  .CajaDatos{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    background:#A9B3CE;
+  }
+  .CajaTelefono{
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+  }
+  .Telefono{
+    width: 50%;
+    height: 100%;
+  }
+  .cel{
+    width: 30%;
+    height: 30%;
+    margin-top: 25%;
+    margin-left: 25%;
+  }
+  .CajaInfoTelefono{
+    width: 50%;
+    height: 100%;
+  }
+  .CajaDireccion{
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+  }
+  .Direccion{
+    width: 50%;
+    height: 100%;
+  }
+  .Ubicacion{
+    width: 30%;
+    height: 30%;
+    margin-top: 25%;
+    margin-left: 25%;
+  }
+  .CajaInfoUbicacion{
+    width: 50%;
+    height: 100%;
+  }
+  .CajaContacto{
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+  }
+  .Contacto{
+    width: 50%;
+    height: 100%;
+  }
+  .Infor{
+    width: 30%;
+    height: 30%;
+    margin-top: 25%;
+    margin-left: 25%;
+  }
+  .CajaInfoContacto{
+    width: 50%;
+    height: 100%;
+    word-wrap: break-word;
+  }
+  .iconos{
+    height: 12%;
+    width: 12%;
+  }

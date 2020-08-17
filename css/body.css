@@ -1,0 +1,469 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body{
+}
+.CajaPortada{
+height: 350px;
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+}
+
+.ImagenPortada{
+  width: 100%;
+  height: 100%;
+}
+.CajaPortada ul{
+  display: flex;
+  padding: 0;
+  width: 205%;
+  text-align: center;
+  height: 320px;
+  margin: auto;
+  animation: cambio 10s infinite;
+}
+.CajaPortada li{
+  width: 100%;
+  list-style: none;
+}
+@keyframes cambio {/esto sirver para dar paradas a las imganeses, es decir cuanto durar en pasar/
+  0%{margin-left: 0;}
+  5%{margin-left: 0;}
+
+  25%{margin-left: -105%;}
+  45%{margin-left: -105%;}
+
+}
+.CajaInfo{
+  height: 500px;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.Info1{
+  width: 30%;
+  height: 100%;
+  margin-left: 28px;
+  margin-right: 17px;
+}
+.CajaTituloInfo1{
+  width: 100%;
+  height: 22%;
+  background-color: #9A8C98;
+  border-radius: 5px;
+}
+.subtituloCaja1{
+  width: 100%;
+  height: 50%;
+}
+.TitleSubtitulo1{
+  font-size: 40px;
+  text-align: center;
+  font-family:'Bree Serif';
+}
+.TitleSubtitulo2{
+  font-size: 20px;
+  text-align: center;
+  font-family:'Bree Serif';
+}
+.TitleSubtitulo3{
+  font-size: 20px;
+  text-align: center;
+  font-family:'Bree Serif';
+}
+.subtituloCaja2{
+  width: 100%;
+  height: 50%;
+}
+
+.CajaTituloInfo12{
+  width: 100%;
+  height: 60%;
+}
+.mini1{
+height: 106%;
+width: 100%;
+background-color: #C9ADA7;
+border-radius: 5px;
+}
+.descripcion{
+  font-size: 20px;
+  font-family: 'Playfair Display', ;
+  text-align: center;
+  padding-top: 60px;
+}
+.mini2{
+height: 20%;
+width: 100%;
+}
+button {
+  background-color: #7284A8;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 18%;
+  font-size: 16px;
+}
+button:hover{
+background-color:  #A9B3CE ;
+}
+.BotonCurriculum{
+  color: white;
+}
+.Info2{
+  width: 30%;
+  height: 100%;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+.ImagenInfo2{
+  height: 100%;
+  width: 100%;
+}
+.Info3{
+  width: 30%;
+  height: 100%;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+.porcentajesBarras{
+    text-align: right;
+    font-family:'Bree Serif';
+}
+.barra1{
+  height: 25%;
+  width: 100%;
+}
+.barra11{
+  background-color: #9A8C98;
+  height: 50%;
+  width: 100%;
+  border-radius: 5px;
+}
+.tituloss{
+  font-size: 30px;
+  font-family: 'Bree Serif' ;
+  text-align: center;
+  padding-top: 10px;
+}
+.barraHabilidad{
+  height: 50%;
+  width: 100%;
+}
+.barracolor1{
+  width: 60%;
+  height: 40%;
+  border-radius: 10px;
+  background-color: #C9ADA7;
+}
+.barracolor1:hover{
+  width: 70%;
+  height: 50%;
+  webkit-box-shadow: 5px 11px 120px 22px rgba(173,168,173,0.81);
+  -moz-box-shadow: 5px 11px 120px 22px rgba(173,168,173,0.81);
+  box-shadow: 5px 11px 120px 22px rgba(173,168,173,0.81);
+}
+.barra2{
+  height: 25%;
+  width: 100%;
+}
+.barra21{
+  background-color: #9A8C98;
+  height: 50%;
+  width: 100%;
+  border-radius: 5px;
+}
+.barraHabilidad2{
+  height: 50%;
+  width: 100%;
+}
+.barracolor2{
+  width: 86%;
+  height: 40%;
+  border-radius: 10px;
+  background-color: #C9ADA7;
+}
+.barracolor2:hover{
+  width: 89%;
+  height: 50%;
+  webkit-box-shadow: 5px 11px 120px 22px rgba(173,168,173,0.81);
+  -moz-box-shadow: 5px 11px 120px 22px rgba(173,168,173,0.81);
+  box-shadow: 5px 11px 120px 22px rgba(173,168,173,0.81);
+}
+.barra3{
+  height: 25%;
+  width: 100%;
+}
+.barra31{
+  background-color: #9A8C98;
+  height: 50%;
+  width: 100%;
+  border-radius: 5px;
+}
+.barraHabilidad3{
+  height: 50%;
+  width: 100%;
+}
+.barracolor3{
+  width: 80%;
+  height: 40%;
+  border-radius: 10px;
+  background-color: #C9ADA7;
+}
+.barracolor3:hover{
+  width: 85%;
+  height: 50%;
+  webkit-box-shadow: 5px 11px 120px 22px rgba(173,168,173,0.81);
+  -moz-box-shadow: 5px 11px 120px 22px rgba(173,168,173,0.81);
+  box-shadow: 5px 11px 120px 22px rgba(173,168,173,0.81);
+}
+.barra4{
+  height: 25%;
+  width: 100%;
+}
+.barra41{
+  background-color: #9A8C98;
+  height: 50%;
+  width: 100%;
+  border-radius: 5px;
+}
+.barraHabilidad4{
+  height: 50%;
+  width: 100%;
+}
+.barracolor4{
+  width: 94%;
+  height: 40%;
+  border-radius: 10px;
+  background-color: #C9ADA7;
+}
+.barracolor4:hover{
+  width: 99%;
+  height: 50%;
+  webkit-box-shadow: 5px 11px 120px 22px rgba(173,168,173,0.81);
+  -moz-box-shadow: 5px 11px 120px 22px rgba(173,168,173,0.81);
+  box-shadow: 5px 11px 120px 22px rgba(173,168,173,0.81);
+}
+@media only screen and (max-width:767px){
+  body{
+  width:100%;
+  height:65px;
+}
+.CajaPortada{
+height: 200px;
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+}
+
+.ImagenPortada{
+  width: 100%;
+  height: 100%;
+}
+.CajaPortada ul{
+  display: flex;
+  padding: 0;
+  width: 200%;
+  text-align: center;
+  height: 320px;
+  margin: auto;
+  animation: cambio 10s infinite;
+}
+.CajaPortada li{
+  width: 100%;
+  list-style: none;
+}
+@keyframes cambio {/esto sirver para dar paradas a las imganeses, es decir cuanto durar en pasar/
+  0%{margin-left: 0;}
+  5%{margin-left: 0;}
+
+  25%{margin-left: -105%;}
+  45%{margin-left: -105%;}
+
+}
+.CajaInfo{
+  flex-direction: column ;
+}
+.Info1{
+  width: 87%;
+  height: 100%;
+  text-align: center;
+
+}
+.CajaTituloInfo1{
+  width: 100%;
+  height: 30%;
+}
+.subtituloCaja1{
+  width: 100%;
+  height: 35%;
+}
+.TitleSubtitulo1{
+  font-size: 85%;;
+  text-align: center;
+}
+.TitleSubtitulo2{
+  font-size: 75%;
+  text-align: center;
+}
+.TitleSubtitulo3{
+  font-size: 75%;
+  text-align: center;
+}
+.subtituloCaja2{
+  width: 100%;
+  height: 50%;
+}
+
+.CajaTituloInfo12{
+  width: 100%;
+  height: 50%;
+}
+.mini1{
+height: 136%;
+width: 100%;
+background-color: #C9ADA7;
+border-radius: 5px;
+}
+.mini2{
+height: 20%;
+width: 100%;
+}
+button {
+  background-color: #7284A8;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 0%;
+  font-size: 14px;
+}
+button:hover{
+background-color:  #A9B3CE ;
+}
+.BotonCurriculum{
+  color: white;
+}
+.descripcion{
+  font-size: 80%;
+  margin-top:5px;
+  font-family: 'Playfair Display', ;
+  text-align: center;
+}
+
+.Info2{
+  width: 87%;
+  height: 50%;
+  padding-left: 3%;
+  padding-top: 17%;
+
+}
+.ImagenInfo2{
+  height: 100%;
+  width: 100%;
+}
+.Info3{
+  padding-top: 10px;
+  width: 87%;
+  height: 60%;
+  padding-right:6px;
+}
+.porcentajesBarras{
+    text-align: right;
+    font-family:'Bree Serif';
+    font-size: 10px;
+}
+.barra1{
+  height: 25%;
+  width: 100%;
+}
+.barra11{
+  background-color: #9A8C98;
+  height: 50%;
+  width: 100%;
+  border-radius: 5px;
+}
+.tituloss{
+  font-size: 13px;
+  font-family: 'Bree Serif' ;
+  text-align: center;
+  padding-top: 0px;
+}
+.barraHabilidad{
+  height: 50%;
+  width: 100%;
+}
+.barracolor1{
+  width: 60%;
+  height: 40%;
+  border-radius: 10px;
+  background-color: #C9ADA7;
+}
+.barra2{
+  height: 25%;
+  width: 100%;
+}
+.barra21{
+  background-color: #9A8C98;
+  height: 50%;
+  width: 100%;
+  border-radius: 5px;
+}
+.barraHabilidad2{
+  height: 50%;
+  width: 100%;
+}
+.barracolor2{
+  width: 86%;
+  height: 40%;
+  border-radius: 10px;
+  background-color: #C9ADA7;
+}
+.barra3{
+  height: 25%;
+  width: 100%;
+}
+.barra31{
+  background-color: #9A8C98;
+  height: 50%;
+  width: 100%;
+  border-radius: 5px;
+}
+.barraHabilidad3{
+  height: 50%;
+  width: 100%;
+}
+.barracolor3{
+  width: 80%;
+  height: 40%;
+  border-radius: 10px;
+  background-color: #C9ADA7;
+}
+.barra4{
+  height: 25%;
+  width: 100%;
+}
+.barra41{
+  background-color: #9A8C98;
+  height: 50%;
+  width: 100%;
+  border-radius: 5px;
+}
+.barraHabilidad4{
+  height: 50%;
+  width: 100%;
+}
+.barracolor4{
+  width: 94%;
+  height: 40%;
+  border-radius: 10px;
+  background-color: #C9ADA7;
+}
